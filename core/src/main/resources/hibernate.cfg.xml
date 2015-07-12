@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <!-- Подключение объектов сущностей -->
+        <mapping package="ru.dz.labs.api.domain"/>
+        <mapping class="ru.dz.labs.api.domain.Role"/>
+        <mapping class="ru.dz.labs.api.domain.Users"/>
+        <mapping class="ru.dz.labs.api.domain.Comment"/>
+        <mapping class="ru.dz.labs.api.domain.Day"/>
+        <mapping class="ru.dz.labs.api.domain.Priority"/>
+        <mapping class="ru.dz.labs.api.domain.Project"/>
+        <mapping class="ru.dz.labs.api.domain.Schedule"/>
+        <mapping class="ru.dz.labs.api.domain.Status"/>
+        <mapping class="ru.dz.labs.api.domain.Task"/>
+        <mapping class="ru.dz.labs.api.domain.ExpendedTime"/>
+    </session-factory>
+
+</hibernate-configuration>

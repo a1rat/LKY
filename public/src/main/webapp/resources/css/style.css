@@ -1,0 +1,9 @@
+.table-responsive {
+	overflow-x: hidden;
+}
+.user-foto{
+	text-align: center;
+}
+.user-foto img{
+	width: 250px;
+}
